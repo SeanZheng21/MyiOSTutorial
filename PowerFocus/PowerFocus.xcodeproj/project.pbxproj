@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF1EAD3E23FFE72B0093CC1D /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1EAD3D23FFE72B0093CC1D /* SettingsTableViewController.swift */; };
+		FF64737C2337CBB90086DB22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF64737B2337CBB90086DB22 /* AppDelegate.swift */; };
+		FF64737E2337CBB90086DB22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF64737D2337CBB90086DB22 /* ViewController.swift */; };
+		FF6473812337CBB90086DB22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF64737F2337CBB90086DB22 /* Main.storyboard */; };
+		FF6473862337CBBA0086DB22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF6473842337CBBA0086DB22 /* LaunchScreen.storyboard */; };
+		FF67139823505886004DB52C /* ActivityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF67139723505886004DB52C /* ActivityType.swift */; };
+		FF67139A23506615004DB52C /* FocusTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF67139923506615004DB52C /* FocusTimer.swift */; };
+		FF88E0E1234615480093CCAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF88E0E0234615480093CCAB /* Assets.xcassets */; };
+		FF96DA012412CBA00076F7E9 /* DefaultKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF96DA002412CBA00076F7E9 /* DefaultKeys.swift */; };
+		FFCBCB2E23584B3700027664 /* PowerFocusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCBCB2D23584B3700027664 /* PowerFocusTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFCBCB2823584AE700027664 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF6473702337CBB90086DB22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF6473772337CBB90086DB22;
+			remoteInfo = PowerFocus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF1EAD3D23FFE72B0093CC1D /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		FF6473782337CBB90086DB22 /* PowerFocus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowerFocus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF64737B2337CBB90086DB22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF64737D2337CBB90086DB22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF6473802337CBB90086DB22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF6473852337CBBA0086DB22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF6473872337CBBA0086DB22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF67139723505886004DB52C /* ActivityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityType.swift; sourceTree = "<group>"; };
+		FF67139923506615004DB52C /* FocusTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTimer.swift; sourceTree = "<group>"; };
+		FF88E0E0234615480093CCAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF96DA002412CBA00076F7E9 /* DefaultKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultKeys.swift; sourceTree = "<group>"; };
+		FFCBCB2323584AE700027664 /* PowerFocusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PowerFocusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFCBCB2723584AE700027664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFCBCB2D23584B3700027664 /* PowerFocusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerFocusTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF6473752337CBB90086DB22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFCBCB2023584AE700027664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF64736F2337CBB90086DB22 = {
+			isa = PBXGroup;
+			children = (
+				FF64737A2337CBB90086DB22 /* PowerFocus */,
+				FFCBCB2423584AE700027664 /* PowerFocusTests */,
+				FF6473792337CBB90086DB22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF6473792337CBB90086DB22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF6473782337CBB90086DB22 /* PowerFocus.app */,
+				FFCBCB2323584AE700027664 /* PowerFocusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF64737A2337CBB90086DB22 /* PowerFocus */ = {
+			isa = PBXGroup;
+			children = (
+				FF64737B2337CBB90086DB22 /* AppDelegate.swift */,
+				FF64737D2337CBB90086DB22 /* ViewController.swift */,
+				FF64737F2337CBB90086DB22 /* Main.storyboard */,
+				FF6473842337CBBA0086DB22 /* LaunchScreen.storyboard */,
+				FF6473872337CBBA0086DB22 /* Info.plist */,
+				FF88E0E0234615480093CCAB /* Assets.xcassets */,
+				FF67139723505886004DB52C /* ActivityType.swift */,
+				FF67139923506615004DB52C /* FocusTimer.swift */,
+				FF1EAD3D23FFE72B0093CC1D /* SettingsTableViewController.swift */,
+				FF96DA002412CBA00076F7E9 /* DefaultKeys.swift */,
+			);
+			path = PowerFocus;
+			sourceTree = "<group>";
+		};
+		FFCBCB2423584AE700027664 /* PowerFocusTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFCBCB2723584AE700027664 /* Info.plist */,
+				FFCBCB2D23584B3700027664 /* PowerFocusTests.swift */,
+			);
+			path = PowerFocusTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF6473772337CBB90086DB22 /* PowerFocus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF64738A2337CBBA0086DB22 /* Build configuration list for PBXNativeTarget "PowerFocus" */;
+			buildPhases = (
+				FF6473742337CBB90086DB22 /* Sources */,
+				FF6473752337CBB90086DB22 /* Frameworks */,
+				FF6473762337CBB90086DB22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PowerFocus;
+			productName = PowerFocus;
+			productReference = FF6473782337CBB90086DB22 /* PowerFocus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFCBCB2223584AE700027664 /* PowerFocusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFCBCB2A23584AE700027664 /* Build configuration list for PBXNativeTarget "PowerFocusTests" */;
+			buildPhases = (
+				FFCBCB1F23584AE700027664 /* Sources */,
+				FFCBCB2023584AE700027664 /* Frameworks */,
+				FFCBCB2123584AE700027664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFCBCB2923584AE700027664 /* PBXTargetDependency */,
+			);
+			name = PowerFocusTests;
+			productName = PowerFocusTests;
+			productReference = FFCBCB2323584AE700027664 /* PowerFocusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF6473702337CBB90086DB22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Carlistle ZHENG";
+				TargetAttributes = {
+					FF6473772337CBB90086DB22 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1120;
+					};
+					FFCBCB2223584AE700027664 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1120;
+						TestTargetID = FF6473772337CBB90086DB22;
+					};
+				};
+			};
+			buildConfigurationList = FF6473732337CBB90086DB22 /* Build configuration list for PBXProject "PowerFocus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF64736F2337CBB90086DB22;
+			productRefGroup = FF6473792337CBB90086DB22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF6473772337CBB90086DB22 /* PowerFocus */,
+				FFCBCB2223584AE700027664 /* PowerFocusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF6473762337CBB90086DB22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6473862337CBBA0086DB22 /* LaunchScreen.storyboard in Resources */,
+				FF88E0E1234615480093CCAB /* Assets.xcassets in Resources */,
+				FF6473812337CBB90086DB22 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFCBCB2123584AE700027664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF6473742337CBB90086DB22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF67139A23506615004DB52C /* FocusTimer.swift in Sources */,
+				FF1EAD3E23FFE72B0093CC1D /* SettingsTableViewController.swift in Sources */,
+				FF64737E2337CBB90086DB22 /* ViewController.swift in Sources */,
+				FF64737C2337CBB90086DB22 /* AppDelegate.swift in Sources */,
+				FF67139823505886004DB52C /* ActivityType.swift in Sources */,
+				FF96DA012412CBA00076F7E9 /* DefaultKeys.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFCBCB1F23584AE700027664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCBCB2E23584B3700027664 /* PowerFocusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFCBCB2923584AE700027664 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF6473772337CBB90086DB22 /* PowerFocus */;
+			targetProxy = FFCBCB2823584AE700027664 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF64737F2337CBB90086DB22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF6473802337CBB90086DB22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF6473842337CBBA0086DB22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF6473852337CBBA0086DB22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF6473882337CBBA0086DB22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF6473892337CBBA0086DB22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF64738B2337CBBA0086DB22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9Z965MBZG;
+				INFOPLIST_FILE = PowerFocus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CarlistleZ.PowerFocus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF64738C2337CBBA0086DB22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9Z965MBZG;
+				INFOPLIST_FILE = PowerFocus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CarlistleZ.PowerFocus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFCBCB2B23584AE700027664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9Z965MBZG;
+				INFOPLIST_FILE = PowerFocusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CarlistleZ.PowerFocusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PowerFocus.app/PowerFocus";
+			};
+			name = Debug;
+		};
+		FFCBCB2C23584AE700027664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9Z965MBZG;
+				INFOPLIST_FILE = PowerFocusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CarlistleZ.PowerFocusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PowerFocus.app/PowerFocus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF6473732337CBB90086DB22 /* Build configuration list for PBXProject "PowerFocus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF6473882337CBBA0086DB22 /* Debug */,
+				FF6473892337CBBA0086DB22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF64738A2337CBBA0086DB22 /* Build configuration list for PBXNativeTarget "PowerFocus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF64738B2337CBBA0086DB22 /* Debug */,
+				FF64738C2337CBBA0086DB22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFCBCB2A23584AE700027664 /* Build configuration list for PBXNativeTarget "PowerFocusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFCBCB2B23584AE700027664 /* Debug */,
+				FFCBCB2C23584AE700027664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF6473702337CBB90086DB22 /* Project object */;
+}
