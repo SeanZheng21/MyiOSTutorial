@@ -4,10 +4,13 @@ This is my original iOS tutorial for beginner developers.
 
 In this tutorial, we show you how to build awesome iOS applications from scratch. For all the beginners, you will be able to follow this step by step tutorial without any prerequisites.
 
+## Part I: the basics
 First, we will set up the Xcode development environment. With a simple "Hello World" app, you will learn all the basics of building responsibe GUI for iOS apps. Then, we will discuss the basics of the Swift programming language, Model View Controller, Object Oriented Programming basics, and so on.
 
+## Part II: pomodoro app walkthrough
 Once you have all the basics to develop your first app, this tutorial will show you a step-by-step walkthrough of building a pomodoro timer application. We will learn how to create model structures,  storyboards, and view controllers. We will also cover some important and practical concepts like testing and data persistence.
 
+## Part III: Introduction to SwiftUI
 Last but not least, we will give you a gentle introduction to Apple's latest SwiftUI framework -- a new way of building iOS applications. So you can get started with building your very first iOS application with the latest and greatest technologies for iOS development!
 
 Hope you enjoy this tutorial!
